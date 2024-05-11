@@ -1,15 +1,12 @@
 # Ex.No:9 Develop a simple calculator using android studio.
 
 ## AIM:
-
 To develop a program to develop a simple calculator in Android Studio.
 
 ## EQUIPMENTS REQUIRED:
-
 Android Studio(Latest Version)
 
 ## ALGORITHM:
-
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as calculator and click Next. 
@@ -23,7 +20,6 @@ Step 5: Design layout using UI components in activity_main.xml.
 Step 6: Display the calculator operation in MainActivity file.
 
 Step 7: Save and run the application.
-
 ## PROGRAM:
 ```
 /*
@@ -32,7 +28,6 @@ Developed by: Ann Blessy Philips
 Registeration Number : 212222040008
 */
 ```
-
 ### In activity_main.xml :
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -51,7 +46,6 @@ Registeration Number : 212222040008
         android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/button1"
         style="?android:attr/buttonStyleSmall"
@@ -68,7 +62,6 @@ Registeration Number : 212222040008
         android:text="1"
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/button2"
         style="?android:attr/buttonStyleSmall"
@@ -80,7 +73,6 @@ Registeration Number : 212222040008
         android:text="2"
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/button3"
         style="?android:attr/buttonStyleSmall"
@@ -91,7 +83,6 @@ Registeration Number : 212222040008
         android:text="3"
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/button4"
         style="?android:attr/buttonStyleSmall"
@@ -102,7 +93,6 @@ Registeration Number : 212222040008
         android:text="4"
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/button5"
         style="?android:attr/buttonStyleSmall"
@@ -114,7 +104,6 @@ Registeration Number : 212222040008
         android:text="5"
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/button6"
         style="?android:attr/buttonStyleSmall"
@@ -126,7 +115,6 @@ Registeration Number : 212222040008
         android:text="6"
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/button7"
         style="?android:attr/buttonStyleSmall"
@@ -137,7 +125,6 @@ Registeration Number : 212222040008
         android:text="7"
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/button8"
         style="?android:attr/buttonStyleSmall"
@@ -149,7 +136,6 @@ Registeration Number : 212222040008
         android:text="8"
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/button9"
         style="?android:attr/buttonStyleSmall"
@@ -161,7 +147,6 @@ Registeration Number : 212222040008
         android:text="9"
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/buttonadd"
         style="?android:attr/buttonStyleSmall"
@@ -179,7 +164,6 @@ Registeration Number : 212222040008
         android:text="+"
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/buttonsub"
         style="?android:attr/buttonStyleSmall"
@@ -198,7 +182,6 @@ Registeration Number : 212222040008
         android:text="-"
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/buttonmul"
         style="?android:attr/buttonStyleSmall"
@@ -217,7 +200,6 @@ Registeration Number : 212222040008
         android:text="*"
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/button10"
         style="?android:attr/buttonStyleSmall"
@@ -228,7 +210,6 @@ Registeration Number : 212222040008
         android:text="."
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/button0"
         style="?android:attr/buttonStyleSmall"
@@ -240,7 +221,6 @@ Registeration Number : 212222040008
         android:text="0"
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/buttonC"
         style="?android:attr/buttonStyleSmall"
@@ -252,7 +232,6 @@ Registeration Number : 212222040008
         android:text="C"
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/buttondiv"
         style="?android:attr/buttonStyleSmall"
@@ -266,7 +245,6 @@ Registeration Number : 212222040008
         android:text="/"
         android:textSize="16sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/buttoneql"
         android:layout_width="302dp"
@@ -286,13 +264,10 @@ Registeration Number : 212222040008
         android:textStyle="bold" />
 </RelativeLayout>
 ```
-
 ### In MainActivity.java :
 ```
 package com.example.simplecalculator;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -300,7 +275,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
     Button button0, button1, button2, button3, button4, button5, button6,
             button7, button8, button9, buttonAdd, buttonSub, buttonDivision,
             buttonMul, button10, buttonC, buttonEqual;
@@ -462,16 +436,8 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-
 ## OUTPUT
-
-![IMG-20240416-WA0007](https://github.com/AnnBlessy/simplecalculator/assets/119477835/5d925a06-aecc-451a-af81-b7aac0c0bb3f)
-
-![IMG-20240416-WA0008](https://github.com/AnnBlessy/simplecalculator/assets/119477835/9ddc8210-cee5-4d57-9caf-8b83c2a962be)
-
-![IMG-20240416-WA0009](https://github.com/AnnBlessy/simplecalculator/assets/119477835/6da48419-9609-41ac-861d-25e3889f09e3)
-
-![IMG-20240416-WA0006](https://github.com/AnnBlessy/simplecalculator/assets/119477835/3fef326b-34ce-4b73-857e-38cac0781cc9)
+![IMG-20240416-WA0007](https://github.com/AnnBlessy/simplecalculator/assets/119477835/7a095cec-5bab-44e9-a04f-c950daffcc27) _ ![IMG-20240416-WA0008](https://github.com/AnnBlessy/simplecalculator/assets/119477835/f0ef47ab-a755-4ded-9a7a-287e7b0e39f3)     ![IMG-20240416-WA0009](https://github.com/AnnBlessy/simplecalculator/assets/119477835/a1fce466-1a8c-443e-8d4d-574914916ac0) _ ![IMG-20240416-WA0006](https://github.com/AnnBlessy/simplecalculator/assets/119477835/24089cb3-c234-4770-92ea-945ba2002dc6)
 
 ## RESULT
 Thus a Simple Android Application develop a program to create simple calculator in Android Studio is developed and executed successfully.
